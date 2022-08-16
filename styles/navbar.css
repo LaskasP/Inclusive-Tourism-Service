@@ -9,6 +9,7 @@
 }
 nav {
   background-color: var(--nav-color);
+  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
