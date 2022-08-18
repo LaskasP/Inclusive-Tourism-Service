@@ -20,12 +20,16 @@ body {
 a {
   text-decoration: none;
 }
-
+.article-text {
+  margin: 10px 20px;
+}
 article {
   padding: 0px 16px;
   margin: 20px 25vw;
 }
-
+section p {
+  margin-top: 20px;
+}
 .small-header {
   font-size: 27px;
   font-weight: 700;
@@ -77,9 +81,6 @@ img {
     padding: 0px 16px;
     margin: 20px 10vw;
   }
-  .objectives {
-    min-height: 60vh;
-  }
 }
 .article-title {
   font-size: 22px;
@@ -88,8 +89,30 @@ img {
 }
 
 .article-text {
-  margin: 5px 20px;
+  margin: 10px 20px;
   font-size: 16px;
   font-weight: 400;
   color: var(--text-secondary);
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 25px;
+  background-color: var(--nav-color);
+  color: white;
+}
+
+.footerContainerImg {
+  max-width: 170px;
+}
+
+footer div {
+  margin-left: 20px;
+  margin-right: 20px;
 }

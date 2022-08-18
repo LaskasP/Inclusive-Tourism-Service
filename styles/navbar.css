@@ -12,8 +12,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px 0 20px;
-  height: 7vh;
+  padding: 10px 20px 10px 20px;
 }
 .logo {
   font-size: 24px;
@@ -54,6 +53,8 @@ nav {
 @media (max-width: 999px) {
   nav {
     overflow-x: hidden;
+    padding: 0px 20px 0px 20px;
+    height: 7vh;
   }
   .navbar {
     position: absolute;
