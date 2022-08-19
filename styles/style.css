@@ -65,22 +65,10 @@ img {
   align-content: center;
   min-height: 48vh;
 }
-
-@media (max-width: 1200px) {
-  article {
-    padding: 0px 16px;
-    margin: 20px 18vw;
-  }
-  .objectives {
-    min-height: 70vh;
-  }
-}
-
-@media (max-width: 700px) {
-  article {
-    padding: 0px 16px;
-    margin: 20px 10vw;
-  }
+.inclusive-tourism {
+  color: #000000;
+  font-weight: 700;
+  font-size: large;
 }
 .article-title {
   font-size: 22px;
@@ -97,13 +85,13 @@ img {
 
 footer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 25px;
+  padding: 25px 9vw;
   background-color: var(--nav-color);
   color: white;
 }
@@ -112,7 +100,27 @@ footer {
   max-width: 170px;
 }
 
+.footer-text {
+  text-align: center;
+}
 footer div {
   margin-left: 20px;
   margin-right: 20px;
+}
+@media (max-width: 1200px) {
+  article {
+    padding: 0px 16px;
+    margin: 20px 18vw;
+  }
+  .objectives {
+    min-height: 70vh;
+  }
+}
+
+@media (max-width: 700px) {
+  article {
+    padding: 0px 16px;
+    margin: 20px 10vw;
+  }
+
 }
