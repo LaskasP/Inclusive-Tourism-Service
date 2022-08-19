@@ -44,7 +44,9 @@ nav {
   display: none;
   cursor: pointer;
 }
-
+header {
+  width: 100%;
+}
 .mobile-menu div {
   width: 32px;
   height: 2px;
@@ -155,9 +157,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   padding: 25px 9vw;
   background-color: var(--nav-color);
