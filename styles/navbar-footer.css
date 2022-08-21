@@ -46,6 +46,8 @@ nav {
 }
 header {
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 .mobile-menu div {
   width: 32px;
@@ -185,5 +187,9 @@ footer div {
     flex-direction: column;
     font-size: x-small;
     margin-top: auto;
+  }
+  .footerContainerImg {
+    max-width: 140px;
+    margin-bottom: 10px;
   }
 }
