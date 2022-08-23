@@ -33,6 +33,7 @@ nav {
   color: var(--text-primary);
   border-radius: 5px;
   margin: 0 0.2em;
+  transition: all 0.4s;
 }
 .navbar a:hover {
   color: var(--text-secondary);
@@ -61,20 +62,18 @@ header {
   nav {
     overflow-x: hidden;
     padding: 0px 20px 0px 20px;
-    height: 7vh;
+    height: 10vh;
   }
   .navbar {
     position: absolute;
-    top: 7vh;
+    top: 10vh;
     right: 0;
     width: 40vw;
-    height: 93vh;
+    height: 90vh;
     background: var(--nav-color);
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
     z-index: 99;
     display: none;
   }
@@ -95,19 +94,18 @@ header {
 @media (max-width: 700px) {
   nav {
     overflow-x: hidden;
+    height: 10vh;
   }
   .navbar {
     position: absolute;
-    top: 7vh;
+    top: 10vh;
     right: 0;
     width: 40vw;
-    height: 93vh;
+    height: 90vh;
     background: var(--nav-color);
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
     z-index: 99;
     display: none;
   }

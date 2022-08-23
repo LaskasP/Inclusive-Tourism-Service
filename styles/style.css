@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 0.4s;
 }
 :root {
   font-size: 16px;
@@ -29,7 +28,7 @@ a {
 }
 article {
   padding: 0px 16px;
-  margin: 20px 25vw;
+  margin: 20px 25vw 40px 25vw;
 }
 section p {
   margin-top: 20px;
@@ -53,7 +52,7 @@ section p {
 */
 .wrapper {
   width: auto;
-  max-height: 400px;
+  max-height: 270px;
   overflow: hidden;
 }
 
@@ -78,7 +77,9 @@ img {
   font-weight: 600;
   color: #000000;
 }
-
+.page-title {
+  margin-bottom: 20px;
+}
 .article-text {
   margin: 10px 20px;
   font-size: 16px;
@@ -95,6 +96,6 @@ img {
 @media (max-width: 700px) {
   article {
     padding: 0px 16px;
-    margin: 20px 10vw;
+    margin: 20px 10vw 40px 10vw;
   }
 }
